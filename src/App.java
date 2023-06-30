@@ -5,7 +5,7 @@ public class App {
        MyGenericClass <Integer, Integer> myInt = new MyGenericClass<>(1, 2);
        MyGenericClass <Double, Double> myDouble = new MyGenericClass<>(3.14, 4.20);
        MyGenericClass <Character, Character> myCharacter = new MyGenericClass<>('@', 'A');
-       MyGenericClass <String, String> myString = new MyGenericClass<>("Hello!", "World!");
+       MyGenericClass <String, Integer> myString = new MyGenericClass<>("Hello!", 99);
 
        System.out.println(myInt.getX());
        System.out.println(myInt.getY());

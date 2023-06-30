@@ -7,6 +7,10 @@ public class App {
        MyGenericClass <Character, Character> myCharacter = new MyGenericClass<>('@', 'A');
        MyGenericClass <String, Integer> myString = new MyGenericClass<>("Hello!", 99);
 
+       // Similar to hashMap
+       // HashMap <Integer, String> users = new HashMap<>();
+       
+
        System.out.println(myInt.getX());
        System.out.println(myInt.getY());
 

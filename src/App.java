@@ -2,10 +2,10 @@ public class App {
     public static void main(String[] args) throws Exception {
         
         
-       MyIntegerClass myInt = new MyIntegerClass(1);
-       MyDoubleClass myDouble = new MyDoubleClass(3.14);
-       MyCharacterClass myCharacter = new MyCharacterClass('@');
-       MyStringClass myString = new MyStringClass("Hello!");
+       MyGenericClass <Integer> myInt = new MyGenericClass<>(1);
+       MyGenericClass <Double> myDouble = new MyGenericClass<>(3.14);
+       MyGenericClass <Character> myCharacter = new MyGenericClass<>('@');
+       MyGenericClass <String> myString = new MyGenericClass<>("Hello!");
 
        System.out.println(myInt.getValue());
        System.out.println(myDouble.getValue());
